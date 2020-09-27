@@ -3,6 +3,6 @@ ssh ubuntu@54.244.218.185 <<EOF
  cd /node-jenkins
  git pull      
  npm install --production      
- pm2 restart all
+ pm2 restart
  exit      
 EOF
